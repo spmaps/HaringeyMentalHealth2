@@ -236,7 +236,7 @@ var charity = new L.LayerGroup();
     var mbAttr = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 			'<a href="http://creativecommons.org/licenses/by-sa/2.0/">A-Team</a>, ' +
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-		mbUrl = 'https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png';
+		mbUrl = 'https://api.mapbox.com/styles/v1/santinska/cizjzedv6007q2spa9nqot9tj/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2FudGluc2thIiwiYSI6Imx3Y3hIc28ifQ.l6XsY0M_EFDlUPy53KY0Eg';
 
     var grayscale   = L.tileLayer(mbUrl, {id: 'santinska/ciuhbl03g00072inoafxhppps', attribution: mbAttr}),
 	    streets  = L.tileLayer(mbUrl, {id: 'santinska.l7np8p7j',   attribution: mbAttr});
